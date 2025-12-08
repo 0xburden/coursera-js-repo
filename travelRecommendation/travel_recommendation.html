@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Travel Recommendation</title>
+        <link rel="stylesheet" href="./travel_recommendation.css" />
+    </head>
+    <body>
+        <nav class="top_navigation">
+            <div class="nav_logo">
+                0xburdenTravel
+            </div>
+            <ul class="nav_links">
+                <li class="nav_link">
+                    <a href="/">Home</a>
+                </li>
+                <li class="nav_link">
+                    <a href="travel_recommendation_about.html">About Us</a>
+                </li>
+                <li class="nav_link">
+                    <a href="travel_recommendation_contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="search_container">
+                <form>
+                    <input class="search_input" name="nav_search" type="text" placeholder="Enter a destination or keyword" id="search_input" />
+                    <div class="search_buttons">
+                        <button class="search_button" type="button" id="search_btn" onclick="handleSearch()">Search</button>
+                        <button class="search_button"" type="button" id="clear_search_btn" onclick="clearSearchResults()">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <article class="search_results">
+        </article>
+        <main class="index_main">
+            <h1 class="huge_heading">See Your Dream City</h1>
+            <p class="large_promo_text">For the first time or the first day of the rest of your life, you can visit beautiful destination cities around the world.
+            <button type="button" class="book_now_btn">BOOK NOW</button>
+        <main>
+        <script src="./travel_recommendation.js"></script>
+    </body>
+</html>
